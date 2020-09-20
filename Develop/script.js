@@ -52,8 +52,6 @@ function generatePassword(){
     answers = alert("Please choose at least one option!")
   }
 
-  
-
   // Proceedure for all 4 inputs
   else if (lowConfirm && upConfirm && numConfirm && spConfirm) {
     answers = alphaL.concat(alphaU, num, spChar)
@@ -115,22 +113,15 @@ function generatePassword(){
   }
 
   var passwordText = password.join("");
-  console.log(passwordText)
-  debugger;
-  writePassword(passwordText);
-  return passwordText;
+ return passwordText;
 }
 
-
-
- //Write password to the #password input
-function writePassword(passwordText) {
+//Write password to the #password input
+function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password"); 
   
   passwordText.value = password;
-
-  
 }
 
 

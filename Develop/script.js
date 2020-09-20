@@ -115,18 +115,23 @@ function generatePassword(){
   }
 
   var passwordText = password.join("");
+  console.log(passwordText)
   debugger;
   writePassword(passwordText);
   return passwordText;
 }
 
 
-// Write password to the #password input
+
+ //Write password to the #password input
 function writePassword(passwordText) {
   var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
+  var passwordText = document.querySelector("#password"); 
+  
   passwordText.value = password;
+
+  
 }
+
 
 

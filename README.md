@@ -15,6 +15,9 @@ Special Characters
 * CSS
 * JavaScript
 
+## Screenshots
+![Example screenshot](./Develop/password-gen_ss.png)
+
 ## deployed Application
 https://cbiertz.github.io/password-gen/
 

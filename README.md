@@ -16,9 +16,7 @@ Special Characters
 * JavaScript
 
 ## deployed Application
-https://lernantino.github.io/run-buddy/
+https://cbiertz.github.io/password-gen/
 
 ## Contribution
-Made with ❤️ by Chris Biertzer
-
-### ©️2019 Run Buddy, Inc 
+Made with ❤️ by Chris Biertzer. Starter code provided by UW-Madison Coding Bootcamp.
